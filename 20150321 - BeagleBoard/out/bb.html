@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="Asciidoctor 1.5.2" name="generator">
+<meta content="Fabio Alessandro Locati" name="author">
+<title>Sperimentare sulla BeagleBoard</title>
+<link href="deck.js/core/deck.core.css" rel="stylesheet">
+<link href="deck.js/extensions/scale/deck.scale.css" media="screen" rel="stylesheet">
+<link href="deck.js/themes/style/web-2.0.css" media="screen" rel="stylesheet">
+<link href="deck.js/themes/transition/horizontal-slide.css" media="screen" rel="stylesheet">
+<link href="deck.js/core/print.css" media="print" rel="stylesheet">
+<script src="deck.js/modernizr.custom.js"></script>
+</head>
+<body class="article">
+<div class="deck-container">
+<section class="slide" id="title-slide">
+<h1>Sperimentare sulla BeagleBoard</h1>
+<span id="author">Fabio Alessandro Locati</span>
+<br>
+</section>
+<section class="slide" id="_presentazione">
+<h2>Presentazione</h2>
+<div class="ulist">
+<ul>
+<li class="slide">Fabio Alessandro Locati</li>
+<li class="slide">Consulente IT</li>
+<li class="slide">Packager Ubuntu</li>
+<li class="slide">Packager, Ambassador, Sysadmin Fedora</li>
+</ul>
+</div>
+</section>
+<section class="slide" id="_beagleboard">
+<h2>BeagleBoard</h2>
+<div class="ulist">
+<ul>
+<li class="slide">100% Open Source</li>
+<li class="slide"><p>
+Componentistica<div class="ulist">
+<ul>
+<li>512MB DDR3 RAM</li>
+<li>4GB 8-bit eMMC on-board flash storage</li>
+<li>3D graphics accelerator</li>
+<li>USB client for power &amp; communications</li>
+<li>USB host</li>
+<li>Ethernet</li>
+<li>HDMI</li>
+<li>2x 46 pin headers</li>
+<li>2x PRU 32-bit microcontrollers</li>
+</ul>
+</div></p></li>
+<li class="slide"><p>
+BUS<div class="ulist">
+<ul>
+<li>one-wire</li>
+<li>I2C</li>
+<li>CANBus</li>
+</ul>
+</div></p></li>
+</ul>
+</div>
+</section>
+<section class="slide" id="_presupposizioni">
+<h2>Presupposizioni</h2>
+<div class="ulist">
+<ul>
+<li class="slide">Da un punto di vista software, ogni output è uguale*</li>
+<li class="slide">Da un punto di vista software, ogni input è uguale*</li>
+<li class="slide">Attenzione a non bruciare nulla</li>
+</ul>
+</div>
+</section>
+<section class="slide" id="_prima_accensione_beagleboard">
+<h2>Prima accensione Beagleboard</h2>
+<div class="ulist">
+<ul>
+<li class="slide">Connettere il cavo USB</li>
+<li class="slide">Andare su <a class="bare" href="http://192.168.7.2:3000">http://192.168.7.2:3000</a></li>
+</ul>
+</div>
+</section>
+<section class="slide" id="_qualche_demo">
+<h2>Qualche demo</h2>
+<div class="ulist">
+<ul>
+<li class="slide">Accendere un LED per 1 secondo in Python</li>
+<li class="slide">Accendere un LED per 1 secondo in C</li>
+<li class="slide">Accendere un LED alla pressione di un pulsante</li>
+<li class="slide">Accendere un LED per 0.1 secondi quando un socket viene iterrogato</li>
+<li class="slide">Creare un servizio REST per accendere e spegnere un LED</li>
+</ul>
+</div>
+</section>
+<section class="slide" id="_sorgenti">
+<h2>Sorgenti</h2>
+<div class="paragraph"><p><a class="bare" href="https://github.com/Fale/talks/">https://github.com/Fale/talks/</a></p></div>
+</section>
+<section class="slide" id="_domande">
+<h2>Domande</h2>
+
+</section>
+</div>
+<script src="deck.js/jquery.min.js"></script>
+<script src="deck.js/core/deck.core.js"></script>
+<script src="deck.js/extensions/scale/deck.scale.js"></script>
+<script>
+  (function($, deck, undefined) {
+    $.deck.defaults.keys['previous'] = [8, 33, 37, 39];
+    $.deck.defaults.keys['next'] = [13, 32, 34, 39];
+  
+    $.extend(true, $[deck].defaults, {
+        countNested: false
+    });
+  
+    $.deck('.slide');
+  })(jQuery, 'deck');
+</script>
+<style>
+  .slide.canvas-image {
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-box;
+  display: box;
+  -moz-box-orient: vertical;
+  -webkit-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  -moz-box-align: start;
+  -webkit-box-align: start;
+  -ms-box-align: start;
+  box-align: start;
+  -moz-box-pack: start;
+  -webkit-box-pack: start;
+  -ms-box-pack: start;
+  box-pack: start;}
+  
+  .bottom-left {
+    left: 1%;
+    bottom: 20%; }
+  
+  .top-left {
+    left: 1%;
+    top: 20%; }
+  
+  .bottom-right {
+    right: 1%;
+    bottom: 20%; }
+  
+  .top-right {
+    right: 1%;
+    top: 20%; }
+  
+  .center-up {
+    right: 50%;
+    top: 1%;
+  }
+  
+  .center-down {
+    right: 50%;
+    bottom: 1%;
+  }
+  .canvas-image .canvas-caption p {
+    text-align: center;
+    padding-top: 0;
+    padding: 0;
+    -moz-transform: none;
+    -webkit-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+    display: inline;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    font-size: 58px;
+    -webkit-box-shadow: 2px 2px 2px #000;
+    -moz-box-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 2px #000;
+    padding: 1rem;
+    color: white; }
+  kbd.keyseq { color: #555555; }
+  kbd:not(.keyseq) {
+    display: inline-block;
+    color: #222222;
+    font-size: 0.7em;
+    line-height: 1.4;
+    background-color: #F7F7F7;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px white inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px white inset;
+    margin: -0.15em 0.15em 0 0.15em;
+    padding: 0.2em 0.6em;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  kbd kbd:first-child { margin-left: 0; }
+  kbd kbd:last-child { margin-right: 0; }
+</style>
+</body>
+</html>

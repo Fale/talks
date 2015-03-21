@@ -1,0 +1,55 @@
+= Sperimentare sulla BeagleBoard 
+Fabio Alessandro Locati
+:backend: deckjs
+:deckjs_theme: web-2.0
+:deckjs_transition: horizontal-slide
+
+== Presentazione
+[options="step"]
+* Fabio Alessandro Locati
+* Consulente IT
+* Packager Ubuntu
+* Packager, Ambassador, Sysadmin Fedora
+
+== BeagleBoard
+[options="step"]
+* 100% Open Source
+* Componentistica
+** 512MB DDR3 RAM
+** 4GB 8-bit eMMC on-board flash storage
+** 3D graphics accelerator
+** USB client for power & communications
+** USB host
+** Ethernet
+** HDMI
+** 2x 46 pin headers
+** 2x PRU 32-bit microcontrollers
+* BUS
+** one-wire
+** I2C
+** CANBus
+
+== Presupposizioni
+[options="step"]
+* Da un punto di vista software, ogni output è uguale*
+* Da un punto di vista software, ogni input è uguale*
+* Attenzione a non bruciare nulla
+
+== Prima accensione Beagleboard
+[options="step"]
+* Connettere il cavo USB
+* Andare su http://192.168.7.2:3000
+
+
+== Qualche demo
+[options="step"]
+* Accendere un LED per 1 secondo in Python
+* Accendere un LED per 1 secondo in C
+* Accendere un LED alla pressione di un pulsante
+* Accendere un LED per 0.1 secondi quando un socket viene iterrogato
+* Creare un servizio REST per accendere e spegnere un LED
+
+== Sorgenti
+https://github.com/Fale/talks/
+
+== Domande
