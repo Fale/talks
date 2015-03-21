@@ -1,0 +1,122 @@
+= GNU/Linux nel mondo del business 
+Fabio Alessandro Locati
+:backend: deckjs
+:deckjs_theme: web-2.0
+:deckjs_transition: horizontal-slide
+
+== Presentazione
+[options="step"]
+* Fabio Alessandro Locati
+* Consulente IT
+* Packager Ubuntu
+* Packager, Ambassador, Sysadmin Fedora
+
+== Perchè GNU/Linux
+[options="step"]
+* Piattaforma molto stabile
+* Alta sicurezza
+* Forte divisione di accessi
+* Basso TCO
+* Software molto avanzati
+
+== Piattaforma molto stabile
+[options="step"]
+* 67.8% dei server mondiali usa Linux/UNIX (32.3% Windows)
+* 97.0% dei TOP500 usa Linux (2.6% UNIX, 0.2% Windows)
+
+== Alta sicurezza
+[options="step"]
+* Evaluation Assurance Level (NSA, NIST)
+
+[options="step"]
+[cols="3*", options="header"]
+|===
+|OS
+|Default installation
+|Custom installation
+
+|Windows 2000+
+|EAL 3
+|EAL 4
+
+|Mac OS X
+|EAL 3
+|?
+
+|RedHat 5/6
+|EAL 4
+|EAL4+
+
+|RedHat 7
+|? (EAL4+)
+|? (EAL5)
+|===
+
+== Forte divisione di accessi
+[options="step"]
+* Compartimentazione "stagna"
+* UNIX Access Mode (DAC)
+* SELinux (MAC)
+
+== TCO
+[options="step"]
+* Nessun costo di licenza
+* Nessun "invecchiamento programmato"
+* Costo umano di gestione
+
+[options="step"]
+[cols="4*", options="header"]
+|===
+|OS
+|Real World
+|Vendor
+|Top
+
+|Windows
+|10-100
+|1'000-2'000
+|?
+
+|Linux
+|100-5'000
+|5'000
+|10'000+
+|===
+
+== Software avanzati
+[options="step"]
+* Web
+** Apache
+** NginX
+** haproxy
+* CAD
+** KiCAD
+* Database
+** MySQL/MariaDB
+** PostgreSQL
+
+== Esempi
+* Casa Bianca
+* United States Department of Defense (DoD)
+* NASA
+* CERN
+* Governo Russo
+* Polizia Nazionale Francese
+* NYSE
+* London Stock Exchange
+* Google
+* Facebook
+* Wikipedia
+* Twitter
+* Amazon
+* KLM, Virgin America
+* DreamWorks
+* Città di Vienna, Monaco
+* Union Bank of California, Banco de Brazil
+
+== Non solo Linux
+[options="step"]
+* Free Libre Open Source Software (FLOSS)
+* Hardware libero
+
+== Domande
