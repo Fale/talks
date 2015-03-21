@@ -1,8 +1,0 @@
-[submodule "20150321_-_BeagleBoard/out/deck.js"]
-    path = 20150321_-_BeagleBoard/out/deck.js
-    url = http://github.com/imakewebthings/deck.js/
-
-[submodule "20150321_-_BusinessLinux/out/deck.js"]
-    path = 20150321_-_BusinessLinux/out/deck.js
-    url = http://github.com/imakewebthings/deck.js/
-
