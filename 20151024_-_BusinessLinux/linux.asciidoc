@@ -1,34 +1,45 @@
-= GNU/Linux nel mondo del business 
-Fabio Alessandro Locati
+= FLOSS per aziende, scuole e delle PA
+:author: Fabio Alessandro Locati
+:email: <fabio@locati.cc>
+:revdate: 2015-10-24
+:revnumber: 1.0
 :backend: deckjs
 :deckjs_theme: web-2.0
 :deckjs_transition: horizontal-slide
 
 == Presentazione
-[options="step"]
+[incremental="true"]
 * Fabio Alessandro Locati
-* Consulente IT
-* Packager Ubuntu
+* Solution Architect
 * Packager, Ambassador, Sysadmin Fedora
 
-== Perchè GNU/Linux
-[options="step"]
+== Aziende - Perchè GNU/Linux
+[incremental="true"]
 * Piattaforma molto stabile
 * Alta sicurezza
 * Forte divisione di accessi
 * Basso TCO
 * Software molto avanzati
+* Supporto commerciale (Red Hat, Novell, Canonical, Oracle)
+
+== Scuole - Perchè linux?
+[incremental="true"]
+* Cultura "Hacker"
+* Indipendenza dai software vendor
+* FREE
+
+== PA - Perchè linux?
+* Indipendenza politica
+* FREE
 
 == Piattaforma molto stabile
-[options="step"]
+[incremental="true"]
 * 67.8% dei server mondiali usa Linux/UNIX (32.3% Windows)
-* 97.0% dei TOP500 usa Linux (2.6% UNIX, 0.2% Windows)
+* 97.0% dei TOP500 usa Linux (2.6% UNIX, 0.2% Windows, 0.2% mixed)
 
 == Alta sicurezza
-[options="step"]
 * Evaluation Assurance Level (NSA, NIST)
 
-[options="step"]
 [cols="3*", options="header"]
 |===
 |OS
@@ -53,18 +64,25 @@ Fabio Alessandro Locati
 |===
 
 == Forte divisione di accessi
+[incremental="true"]
 [options="step"]
 * Compartimentazione "stagna"
 * UNIX Access Mode (DAC)
 * SELinux (MAC)
 
 == TCO
-[options="step"]
+[incremental="true"]
 * Nessun costo di licenza
 * Nessun "invecchiamento programmato"
 * Costo umano di gestione
+* Automazione
 
-[options="step"]
+== TCO
+* Nessun costo di licenza
+* Nessun "invecchiamento programmato"
+* Costo umano di gestione
+* Automazione
+
 [cols="4*", options="header"]
 |===
 |OS
@@ -84,7 +102,7 @@ Fabio Alessandro Locati
 |===
 
 == Software avanzati
-[options="step"]
+[incremental="true"]
 * Web
 ** Apache
 ** NginX
@@ -114,8 +132,9 @@ Fabio Alessandro Locati
 * Città di Vienna, Monaco
 * Union Bank of California, Banco de Brazil
 
+
 == Non solo Linux
-[options="step"]
+[incremental="true"]
 * Free Libre Open Source Software (FLOSS)
 * Hardware libero
 
