@@ -57,11 +57,11 @@
 
 |RedHat 5/6
 |EAL 4
-|EAL4+
+|EAL 4+
 
 |RedHat 7
-|? (EAL4+)
-|? (EAL5?)
+|? (EAL 4+)
+|? (EAL 5?)
 |===
 
 == Forte divisione di accessi
