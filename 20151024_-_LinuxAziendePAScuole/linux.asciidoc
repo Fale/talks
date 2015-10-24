@@ -26,11 +26,12 @@
 [incremental="true"]
 * Cultura "Hacker"
 * Indipendenza dai software vendor
-* FREE
+* FREE (TCO)
 
 == PA - Perchè linux?
+[incremental="true"]
 * Indipendenza politica
-* FREE
+* FREE (TCO)
 
 == Piattaforma molto stabile
 [incremental="true"]
@@ -60,7 +61,7 @@
 
 |RedHat 7
 |? (EAL4+)
-|? (EAL5)
+|? (EAL5?)
 |===
 
 == Forte divisione di accessi
@@ -74,14 +75,14 @@
 [incremental="true"]
 * Nessun costo di licenza
 * Nessun "invecchiamento programmato"
-* Costo umano di gestione
 * Automazione
+* Costo umano di gestione
 
 == TCO
 * Nessun costo di licenza
 * Nessun "invecchiamento programmato"
-* Costo umano di gestione
 * Automazione
+* Costo umano di gestione
 
 [cols="4*", options="header"]
 |===
@@ -106,12 +107,17 @@
 * Web
 ** Apache
 ** NginX
-** haproxy
+** HAProxy
 * CAD
 ** KiCAD
 * Database
 ** MySQL/MariaDB
 ** PostgreSQL
+
+== Indipendenza software vendor
+[incremental="true"]
+* Libertà di scelta
+* Privacy
 
 == Esempi
 * Casa Bianca
